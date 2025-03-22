@@ -1,1 +1,2 @@
 Lab 02: Problem Modeling and Encapsulation 
+what wrong with this?
