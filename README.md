@@ -1,3 +1,4 @@
-#Hello world
+Hello world
 #
-##Im funchan, author of this project.
+Im funchan, author of this project.
+##
