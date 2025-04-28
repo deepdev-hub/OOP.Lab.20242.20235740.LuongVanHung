@@ -1,3 +1,7 @@
+package hust.soict.dsai.aims;
+import hust.soict.dsai.aims.disc.DVD;
+import hust.soict.dsai.test.disc.Cart;
+
 public class Aims {
     
     
