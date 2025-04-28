@@ -1,2 +1,26 @@
-hello world 
-new branch 
+
+1. use case diagram,
+2. class diagram
+
+3. the source code of all sections of this lab
+4.  the reading assignment
+
+
+5. source file (.astah)
+6exported image (.png)  in the folder namely “Requirement” use case
+7. exported image file (.png) in the folder namely “Design” class
+8, image file of the reading assignment in the folder namely 
+“ReadingAssignment”,
+
+
+
+Biểu đồ thấu cảm: đầy đủ các phần bao gồm Nghĩa và cảm nhận, Nhìn, Nói và làm, Nghe, Mong muốn, Nỗi đau. 
+
+Các thông tin của biểu đồ thấu cảm phải được tổng hợp từ bài phỏng vấn. 
+
+Câu vấn đề: đầy đủ các phần (ai, cái gì, ở đâu, tại sao), vấn đề không quá rộng, không quá hẹp, và có thể hành động được
+
+Gọi tên vấn đề 
+9-12 từ. 
+Vấn đề của ai? Cái gì? Ở đâu? Tại sao? 
+Có thể hành động được.
