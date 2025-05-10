@@ -1,0 +1,39 @@
+Reading Assignment:  Please answer three questions below: - 
+What are the advantages of Polymorphism? - - 
+How is Inheritance useful to achieve Polymorphism in Java? 
+What are the differences between Polymorphism and Inheritance in Java? 
+
+
+câu 1: Lợi ích của Polymorphism (Đa hình):
+
+Tính linh hoạt cao: Polymorphism cho phép các đối tượng thuộc các lớp con có thể được xử lý như các đối tượng của lớp cha. Điều này giúp giảm bớt mã nguồn và làm cho chương trình dễ bảo trì hơn.
+
+Tái sử dụng mã nguồn: Polymorphism giúp bạn viết mã tổng quát, có thể áp dụng cho nhiều loại đối tượng khác nhau mà không cần phải thay đổi mã cho mỗi lớp con.
+
+Dễ mở rộng: Bạn có thể thêm các lớp mới vào chương trình mà không làm ảnh hưởng đến các phần còn lại của hệ thống, vì các lớp mới này có thể tận dụng các phương thức đã có trong lớp cha.
+
+Giảm sự phụ thuộc vào lớp cụ thể: Polymorphism giúp giảm sự phụ thuộc vào lớp cụ thể, điều này làm cho hệ thống của bạn ít bị ràng buộc hơn, dễ dàng thay đổi và mở rộng.
+
+câu 2: Tính kế thừa (Inheritance) có ích như thế nào trong việc đạt được Polymorphism trong Java?
+
+Kế thừa là cơ sở của Polymorphism: Trong Java, Polymorphism chủ yếu được thực hiện thông qua kế thừa. Khi một lớp con kế thừa từ lớp cha, nó có thể ghi đè (override) các phương thức của lớp cha. Điều này cho phép bạn gọi các phương thức của lớp cha thông qua các đối tượng của lớp con, và hành vi của các phương thức có thể thay đổi tùy theo từng đối tượng cụ thể.
+
+Gọi phương thức từ lớp cha nhưng thực thi phương thức của lớp con: Nhờ kế thừa, bạn có thể gọi phương thức của lớp cha nhưng nếu lớp con ghi đè phương thức đó, Java sẽ thực thi phương thức của lớp con, điều này tạo ra Polymorphism.
+
+câu 3: Sự khác biệt giữa Polymorphism và Inheritance trong Java:
+
+Inheritance (Kế thừa):
+
+Là cơ chế cho phép một lớp (lớp con) kế thừa các thuộc tính và phương thức của một lớp khác (lớp cha).
+
+Giúp tái sử dụng mã nguồn và tổ chức mã theo cấu trúc cây phân cấp.
+
+Kế thừa không thay đổi hành vi của phương thức (trừ khi phương thức đó được ghi đè).
+
+Polymorphism (Đa hình):
+
+Là khả năng một đối tượng có thể có nhiều hình thức khác nhau, cho phép các đối tượng của các lớp con có thể được xử lý giống như các đối tượng của lớp cha.
+
+Polymorphism thường được thực hiện thông qua việc ghi đè phương thức trong lớp con (method overriding).
+
+Polymorphism cho phép bạn viết mã tổng quát, xử lý các đối tượng của các lớp con mà không cần quan tâm đến kiểu lớp cụ thể của đối tượng đó.
