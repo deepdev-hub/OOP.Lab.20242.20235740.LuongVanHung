@@ -1,0 +1,16 @@
+package hust.soict.dsai.aims.store;
+
+import hust.soict.dsai.aims.disc.DVD;
+import java.util.ArrayList;
+import java.util.List;
+
+public class Store {
+    List<DVD> listDVD = new ArrayList<>();
+    public void addDVD(DVD dvd){
+        listDVD.add(dvd);
+    }
+    public void removeDVD(DVD dvd){
+        listDVD.remove(dvd);
+    }
+
+}

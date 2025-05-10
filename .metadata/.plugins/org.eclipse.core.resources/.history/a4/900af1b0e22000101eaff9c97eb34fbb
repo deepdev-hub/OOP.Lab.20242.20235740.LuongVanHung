@@ -1,0 +1,93 @@
+package hust.soict.dsai.test.disc;
+import hust.soict.dsai.aims.disc.DVD;
+import java.util.ArrayList;
+
+public class Cart {
+    public static final int MAX_AMOUNT = 20;
+
+    private ArrayList<DVD> arrListItemOrder;
+
+    public Cart() {
+        arrListItemOrder = new ArrayList<>(); 
+    }
+    private int quantityDVDintheCart = 0;
+
+    public static int getMaxAmount() {
+        return MAX_AMOUNT;
+    }
+    public void listDVDInTheCart(){
+        for(DVD dvd: this.arrListItemOrder){
+            dvd.displayDVD();
+        }
+    }
+
+    public int getQuantityDVDintheCart() {
+        return quantityDVDintheCart;
+    }
+
+    public boolean addDVD(DVD dvd){
+        if(quantityDVDintheCart<20){
+            if (dvd != null) { // Kiểm tra null trước khi thêm
+                arrListItemOrder.add(dvd);
+            }
+            this.quantityDVDintheCart++;
+            return true;
+        }
+        System.err.println("khong the add them dvd");
+        return false;
+
+    }
+
+    public double totalCost() {
+        double sum = 0;
+        for (DVD item : arrListItemOrder) {
+            sum+= item.getCost();
+        }
+        return sum;
+    }
+    public void print(){
+        System.out.printf("""
+                          ***********************CART***********************\r
+                          Ordered Items:\r
+                          """ //
+        );
+        int i=0;
+        for(DVD dvd : arrListItemOrder){
+            i++;
+            System.out.println(i+". DVD - "+dvd.toString()      );
+
+        }
+        System.out.printf("Total cost: "+this.totalCost()+" $\r\n" + //
+                        "***************************************************");
+
+    }
+    public void SearchByID(String id){
+        boolean notFound = true;
+        for(DVD dvd : arrListItemOrder){
+            if(dvd.getDVDID().equals(id)){
+                dvd.displayDVD();
+                notFound=false;
+            }
+        }
+        if(notFound==true){
+            System.out.println("item not found!!");
+        }
+
+    }
+    public void SearchByTitle(String title){
+        boolean notFound = true;
+        for(DVD dvd : arrListItemOrder){
+            if(dvd.getTilte().equals(title)){
+                dvd.displayDVD();
+                notFound=false;
+            }
+        }
+        if(notFound==true){
+            System.out.println("item not found!!");
+        }
+
+    }
+ 
+
+}
+

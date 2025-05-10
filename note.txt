@@ -1,2 +1,6 @@
+<<<<<<< release/lab01
 hello world 
 new branch 
+=======
+hello notepad
+>>>>>>> local

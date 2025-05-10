@@ -1,0 +1,18 @@
+package hust.soict.dsai.test.cart;
+
+import hust.soict.dsai.aims.disc.*;
+import hust.soict.dsai.test.disc.*;
+
+public class CartTest {
+    public static void main(String[] args) {
+        DVD dvd1 = new DVD("dvd1", "phim marvel", "tony", 80000);
+        DVD dvd2 = new DVD("dvd2", "phim vietnam", "ken tran", 100000);
+        Cart cart1 = new Cart();
+        cart1.addDVD(dvd2);
+        cart1.addDVD(dvd1);
+        cart1.print();
+        System.err.println("search by title: dvd1");
+        cart1.SearchByTitle("dvd1");
+    }
+
+}

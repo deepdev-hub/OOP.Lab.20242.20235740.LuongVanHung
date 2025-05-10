@@ -1,0 +1,15 @@
+package hust.soict.dsai.aims.store;
+
+import hust.soict.dsai.aims.disc.DVD;
+
+public class StoreTest {
+    public static void main(String[] args) {
+        DVD dvd1 = new DVD("dvd1", "phim marvel", "tony", 80000);
+        DVD dvd2 = new DVD("dvd2", "phim vietnam", "ken tran", 100000);
+        Store store = new Store();
+        store.addDVD(dvd2);
+        store.addDVD(dvd1);
+        store.removeDVD(dvd2);
+        store.removeDVD(dvd1);
+    }
+}
