@@ -59,6 +59,5 @@ public class AWTAccumulator extends Frame{
             tfOutput.setText(sum+"");
         }
     }
-
 }
 
