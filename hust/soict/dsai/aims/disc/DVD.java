@@ -1,3 +1,4 @@
+package hust.soict.dsai.aims.disc;
 public class DVD {
     private String tilte = "null";
     private String category = "null";
