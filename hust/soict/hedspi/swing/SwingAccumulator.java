@@ -43,7 +43,7 @@ public class SwingAccumulator extends JFrame{
         tfOutput.setEditable(false);
         cp.add(tfOutput);
         setTitle("accumulator");
-        setSize(300, 120);
+        setSize(300, 150);
         setVisible(true);
     }
     public static void main(String[] args) {
@@ -54,8 +54,8 @@ public class SwingAccumulator extends JFrame{
         public void actionPerformed(ActionEvent event){
             int numberIn = Integer.parseInt(tfInput.getText());
             sum += numberIn;
-            tfOutput.setText(sum+"");
             tfInput.setText("");
+            tfOutput.setText(sum+"");
             
         }
     }

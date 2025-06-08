@@ -1,4 +1,4 @@
-package hust.soict.hedspi.swing;
+package hust.soict.hedspi.AWT;
 
 import java.awt.Frame;
 import java.awt.GridLayout;
