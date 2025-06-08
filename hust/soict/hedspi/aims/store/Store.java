@@ -5,7 +5,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Store {
-    List<Media> listMedia = new ArrayList<>();
+    private  List<Media> listMedia = new ArrayList<>();
+    
     public void addMedia(Media media){
         if(listMedia.contains(media)){
             System.out.println("media da co trong cua hang");
@@ -21,6 +22,12 @@ public class Store {
         for(Media elm :  listMedia){
             System.out.println(elm);
         }
+    }
+    public List<Media> getListMedia() {
+        return listMedia;
+    }
+    public void setListMedia(List<Media> listMedia) {
+        this.listMedia = listMedia;
     }
 
 }

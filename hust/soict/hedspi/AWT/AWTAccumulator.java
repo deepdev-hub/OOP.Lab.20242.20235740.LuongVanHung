@@ -1,4 +1,4 @@
-package hust.soict.hedspi.swing;
+package hust.soict.hedspi.AWT;
 
 import java.awt.Frame;
 import java.awt.GridLayout;
@@ -59,9 +59,5 @@ public class AWTAccumulator extends Frame{
             tfOutput.setText(sum+"");
         }
     }
-<<<<<<< HEAD
-
-=======
->>>>>>> 3677c203d153cda7ca72991f00da7b19e97d6df3
 }
 
